@@ -1,0 +1,26 @@
+.skill-logo{
+    align-self: center;
+    max-height:3em;
+    max-width: 3em;
+    min-width: 3em;
+    min-width: 3em;
+    margin-bottom: 1vmin;
+}
+
+.skill-card{
+    padding: 1vmin 0vmin 3vmin 0vmin;
+    margin: 1vmin 0vmin 1vmin 0vmin;
+    text-align: center;
+    height: 7em;
+    width: auto;
+    max-width: 8em;
+}
+
+.img-container{
+    min-height: 3em;
+}
+
+.capability-logo{
+    min-height: 7em;
+    min-width: 7em;
+}

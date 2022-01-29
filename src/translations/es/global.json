@@ -1,0 +1,14 @@
+{
+    "navbar":{
+        "resume":"CURRÍCULUM",
+        "portafolio":"PORTAFOLIO",
+        "contact":"CONTACTO",
+        "cv": "Mi"
+    },
+    "footer":{
+        "about":"Para más información acerca de mi:",
+        "line1":"Puedes contactarme por Email, Skype o Whatsapp",
+        "line2":"Este sitio web fue desarollado usando:",
+        "line3":""
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "education":[
+        {
+            "name":"system_name",
+            "where":"Universidad de los Andes",
+            "during":"2016-2021"
+        },
+        {
+            "name":"mechanical_name",
+            "where":"Universidad de los Andes",
+            "during":"2016-2020"
+        }
+    ],
+    "work":[
+        {
+            "name":"lresarchname",
+            "where":"Livingston Research",
+            "during":"lresearcduring",
+            "functions":["lresearchF1"]
+        },
+        {
+            "name":"liveuname",
+            "where":"LiveU",
+            "during":"liveuduring",
+            "functions":["liveuF1","liveuF2","liveuF3"]
+        }
+    ],
+    "languajes":[
+        {
+            "name":"english",
+            "level":"C1"
+        },
+        {
+            "name":"spanish",
+            "level":"native"
+        }
+    ]
+}

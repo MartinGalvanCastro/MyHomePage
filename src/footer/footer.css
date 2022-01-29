@@ -1,0 +1,12 @@
+#footer{
+    padding: 2vmin 1vmin 2vmin 1vmin;
+    background-color: #080708;
+    color: #E6E8E6;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.card-body{
+    padding: 0vmin;
+}

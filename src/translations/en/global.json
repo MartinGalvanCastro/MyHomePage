@@ -1,0 +1,13 @@
+{
+  "navbar": {
+    "resume": "RESUME",
+    "portafolio": "PORTAFOLIO",
+    "contact": "CONTACT",
+    "cv": "My"
+  },
+  "footer": {
+    "more-info-title": "For more information about me:",
+    "more-info-text": "Feel free to contact me via Email, Skype or Whatsapp",
+    "site-details-title": "This site was developed using:"
+  }
+}

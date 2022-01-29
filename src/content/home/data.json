@@ -1,0 +1,76 @@
+{
+    "skills":[
+        {
+            "name":"Python",
+            "level":"Expert",
+            "logo":"../../assets/python.svg"
+        },
+        {
+            "name":"PostgreSQL",
+            "level":"Expert",
+            "logo":"../../assets/postgresql.svg"
+        },
+        {
+            "name":"HTML",
+            "level":"Proeficient",
+            "logo":"../../assets/html.svg"
+        },
+        {
+            "name":"JavaScript",
+            "level":"Proeficient",
+            "logo":"../../assets/javascript.svg"
+        },
+        {
+            "name":"TypeScript",
+            "level":"Proeficient",
+            "logo":"../../assets/typescript.svg"
+        },
+        {
+            "name":"Java",
+            "level":"Proeficient",
+            "logo":"../../assets/java.svg"
+        },
+        {
+            "name":"MongoDB",
+            "level":"Proeficient",
+            "logo":"../../assets/mongodb.svg"
+        },
+        {
+            "name":"AWS",
+            "level":"Intermediate",
+            "logo":"../../assets/aws.svg"
+        },
+        {
+            "name":"Firebase",
+            "level":"Intermediate",
+            "logo":"../../assets/firebase.svg"
+        },
+        {
+            "name":"CSS",
+            "level":"Intermediate",
+            "logo":"../../assets/css.svg"
+        }
+    ],
+    "capable_of":[
+        {
+            "name":"Working under pressure",
+            "logo":"under_pressure.svg"
+        },
+        {
+            "name":"Self-Teaching",
+            "logo":"self_learning.svg"
+        },
+        {
+            "name":"Working in team",
+            "logo":"teamwork.svg"
+        },
+        {
+            "name":"Good software design and development",
+            "logo":"sw.svg"
+        },
+        {
+            "name":"Expressing Ideas",
+            "logo":"express.svg"
+        }
+    ]
+}

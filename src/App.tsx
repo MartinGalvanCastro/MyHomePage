@@ -1,25 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React,{useState} from "react";
+import "./app.css";
+import ParticleBackground from "./particleBackgorund/particleBackground";
+import CustomNavBar from "./nav/navbar";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Footer from "./footer/footer";
+import Card from "react-bootstrap/Card";
+import MyInfo from "./myInfo/myInfo";
+import Content from "./content/content"
 
 function App() {
+
+  const [content,setContent] = useState('home')
+  console.log(content)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Container className="App">
+    <ParticleBackground />
+      <Row>
+        <Col lg={3} md={4}>
+          <MyInfo />
+        </Col>
+        <Col lg={9} md={8}>
+        <CustomNavBar setContent={setContent}/>
+          <Card>
+            <Card.Body>
+              <Content contentId={content}/>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
+    <Footer/>
+    
+    </>
   );
 }
 
