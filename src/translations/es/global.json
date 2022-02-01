@@ -1,9 +1,9 @@
 {
     "navbar":{
-        "resume":"CURRÍCULUM",
+        "resume":"EXPERIENCIA",
         "portafolio":"PORTAFOLIO",
         "contact":"CONTACTO",
-        "cv": "Mi"
+        "cv": "MI"
     },
     "footer":{
         "about":"Para más información acerca de mi:",

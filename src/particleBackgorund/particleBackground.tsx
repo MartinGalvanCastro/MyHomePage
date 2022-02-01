@@ -11,7 +11,7 @@ const ParticleBackground = () => {
               value: "#FFFFF",
             },
           },
-          fpsLimit: 60,
+          fpsLimit: 30,
           interactivity: {
             detectsOn: "canvas",
             events: {
@@ -24,7 +24,7 @@ const ParticleBackground = () => {
             },
             links: {
               color: "#070607",
-              distance: 150,
+              distance: 100,
               enable: true,
               opacity: 0.5,
               width: 1,
@@ -45,7 +45,7 @@ const ParticleBackground = () => {
                 enable: true,
                 area: 800,
               },
-              value: 80,
+              value: 70,
             },
             opacity: {
               value: 0.5,
