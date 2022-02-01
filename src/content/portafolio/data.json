@@ -1,0 +1,18 @@
+{
+    "projects":[
+        {
+            "name":"Apoyafem",
+            "image":"apoyafem.jpeg",
+            "type":"Academic Project",
+            "detailed":"Apoyafem is an app for helping women who suffers from household violence offering legal and psycological supporting",
+            "made":["Python Django", "Angular"]
+        },
+        {
+            "name":"Senecabot",
+            "image":"senecabot.jpeg",
+            "type":"Academic Project",
+            "detailed":"Senecabot was an autonomous robot which can follow an stablished route across an previously defined space. Can locate itself using QR codes. Can count pennies and give the total ammount of money pressent.",
+            "made":["Python ROSPy", "Python PyGame"]
+        }
+    ]
+}

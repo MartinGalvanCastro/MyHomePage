@@ -35,8 +35,8 @@ const onClickMap: linkInfo = {
  */
 const MyInfo = () => {
   return (
-    <Container id="data-container">
-      <Row>
+    <Container id="data-container" className="mb-sm-2">
+      <Row className="img-container">
         <img
           className="img-fluid rounded"
           src={porfilePic}

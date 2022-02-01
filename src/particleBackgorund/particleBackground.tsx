@@ -11,7 +11,7 @@ const ParticleBackground = () => {
               value: "#FFFFF",
             },
           },
-          fpsLimit: 30,
+          fpsLimit: 60,
           interactivity: {
             detectsOn: "canvas",
             events: {
@@ -24,28 +24,25 @@ const ParticleBackground = () => {
             },
             links: {
               color: "#070607",
-              distance: 100,
+              distance: 150,
               enable: true,
               opacity: 0.5,
               width: 1,
-            },
-            collisions: {
-              enable: true,
             },
             move: {
               direction: "none",
               enable: true,
               outMode: "bounce",
               random: false,
-              speed: 2,
+              speed: 1,
               straight: false,
             },
             number: {
               density: {
                 enable: true,
-                area: 800,
+                area: 2000,
               },
-              value: 70,
+              value: 100,
             },
             opacity: {
               value: 0.5,
@@ -55,7 +52,7 @@ const ParticleBackground = () => {
             },
             size: {
               random: true,
-              value: 5,
+              value: 3,
             },
           },
           detectRetina: true,

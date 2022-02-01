@@ -1,38 +1,28 @@
 {
     "education":[
         {
-            "name":"system_name",
+            "name":"Computer and System Engineering",
             "where":"Universidad de los Andes",
             "during":"2016-2021"
         },
         {
-            "name":"mechanical_name",
+            "name":"Mechanical Engineering",
             "where":"Universidad de los Andes",
             "during":"2016-2020"
         }
     ],
     "work":[
         {
-            "name":"lresarchname",
+            "name":"Freelancer Tutor",
             "where":"Livingston Research",
-            "during":"lresearcduring",
-            "functions":["lresearchF1"]
+            "during":"October 2020 - Febrary 2021",
+            "description":"Tutoring in the development of assignments and projects for English speakers"
         },
         {
-            "name":"liveuname",
+            "name":"Helpdesk Engineer",
             "where":"LiveU",
-            "during":"liveuduring",
-            "functions":["liveuF1","liveuF2","liveuF3"]
-        }
-    ],
-    "languajes":[
-        {
-            "name":"english",
-            "level":"C1"
-        },
-        {
-            "name":"spanish",
-            "level":"native"
+            "during":"Febrary 2021 - Present",
+            "description":"Giving realtime support and troubleshooting on field units and servers to clients accross Latin America and Caribbean for Live TV Events"
         }
     ]
 }
