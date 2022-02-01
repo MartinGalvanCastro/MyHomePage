@@ -2,7 +2,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import data from "./data.json";
 import Container from "react-bootstrap/Container";
-import Card from "react-bootstrap/Card";
 import "./home.css";
 
 interface ISkillObject {
@@ -19,16 +18,16 @@ interface ICapabilityObject {
 const renderCapability = (data: ICapabilityObject) => {
   return (
     <Col key={data.name} className="mt-4">
-      <Container>
-        <Row className="d-flex align-items-center">
-          <Col>
+      <Container className="capability-container text-center">
+        <Row>
+          <Col className="mx-auto">
             <img
               src={require(`../../assets/${data.logo}`)}
               alt={data.name}
               className="img-fluid capability-logo"
             />
           </Col>
-          <Col>
+          <Col className="mx-auto align-self-center">
             <p>{data.name}</p>
           </Col>
         </Row>
@@ -39,18 +38,21 @@ const renderCapability = (data: ICapabilityObject) => {
 
 const renderSkill = (data: ISkillObject) => {
   return (
-    <Col key={data.name}>
-      <Card className="skill-card text-center">
-        <Card.Img
-          variant="top"
-          src={require(`../../assets/${data.name.toLowerCase()}.svg`)}
-          className="img-fluid skill-logo"
-          alt={data.name}
-        />
-        <Card.Body>
-          <Card.Text>{data.level}</Card.Text>
-        </Card.Body>
-      </Card>
+    <Col key={data.name} className="mt-4">
+      <Container className="skill-container text-center">
+        <Row>
+          <Col>
+            <img
+              src={require(`../../assets/${data.logo}`)}
+              alt={data.name}
+              className="img-fluid skill-logo"
+            />
+          </Col>
+        </Row>
+        <Row>
+          <Col><p>{data.level}</p></Col>
+        </Row>
+      </Container>
     </Col>
   );
 };
@@ -67,8 +69,8 @@ const Home = () => {
             Matlab, SQL, and SQL Databases, MongoDB, NodeJS, ExpressJS, React,
             AWS and Firebase. With interest in Robotics, Artificial
             Intelligence, Software Development, and Architecture, Modeling,
-            Simulation, and Optimization and aspirations to become a great Full Stack
-            Engineer
+            Simulation, and Optimization and aspirations to become a great Full
+            Stack Engineer
           </p>
         </section>
       </Row>
@@ -76,13 +78,13 @@ const Home = () => {
         <section className="col">
           <h3>Skills:</h3>
           <Container>
-            <Row className="row-cols-xl-6 row-cols-lg-4 row-cols-md-2 row-cols-sm-3 row-cols-2">
+            <Row className="row-cols-xl-5 row-cols-lg-4 row-cols-md-2 row-cols-sm-3 row-cols-2">
               {data.skills.map((skill) => renderSkill(skill))}
             </Row>
           </Container>
         </section>
       </Row>
-      <Row className="mt-3 mb-2">
+      <Row className="mt-5 mb-2">
         <section className="col">
           <h3>Capable Of:</h3>
           <Row className="row-cols-1 row-cols-lg-2 mt-2">

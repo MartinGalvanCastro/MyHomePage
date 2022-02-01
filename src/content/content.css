@@ -1,7 +1,10 @@
 #content-container{
     padding: 0px;
     justify-content: center;
+    text-align: justify;
 }
+
+
 
 .construction{
     max-height: 20em;

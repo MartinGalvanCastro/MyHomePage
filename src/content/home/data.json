@@ -3,52 +3,52 @@
         {
             "name":"Python",
             "level":"Expert",
-            "logo":"../../assets/python.svg"
+            "logo":"python.svg"
         },
         {
             "name":"PostgreSQL",
             "level":"Expert",
-            "logo":"../../assets/postgresql.svg"
+            "logo":"postgresql.svg"
         },
         {
             "name":"HTML",
-            "level":"Proeficient",
-            "logo":"../../assets/html.svg"
+            "level":"Proficient",
+            "logo":"html.svg"
         },
         {
             "name":"JavaScript",
-            "level":"Proeficient",
-            "logo":"../../assets/javascript.svg"
+            "level":"Proficient",
+            "logo":"javascript.svg"
         },
         {
             "name":"TypeScript",
-            "level":"Proeficient",
-            "logo":"../../assets/typescript.svg"
+            "level":"Proficient",
+            "logo":"typescript.svg"
         },
         {
             "name":"Java",
-            "level":"Proeficient",
-            "logo":"../../assets/java.svg"
+            "level":"Proficient",
+            "logo":"java.svg"
         },
         {
             "name":"MongoDB",
-            "level":"Proeficient",
-            "logo":"../../assets/mongodb.svg"
+            "level":"Proficient",
+            "logo":"mongodb.svg"
         },
         {
             "name":"AWS",
             "level":"Intermediate",
-            "logo":"../../assets/aws.svg"
+            "logo":"aws.svg"
         },
         {
             "name":"Firebase",
             "level":"Intermediate",
-            "logo":"../../assets/firebase.svg"
+            "logo":"firebase.svg"
         },
         {
             "name":"CSS",
             "level":"Intermediate",
-            "logo":"../../assets/css.svg"
+            "logo":"css.svg"
         }
     ],
     "capable_of":[

@@ -17,10 +17,10 @@ function App() {
 
   return (
     <>
-    <Container className="App">
+    <Container className="App mx-center" id="main-container">
     <ParticleBackground />
       <Row>
-        <Col lg={3} md={4}>
+        <Col lg={3} md={4} className="mx-auto">
           <MyInfo />
         </Col>
         <Col lg={9} md={8}>
