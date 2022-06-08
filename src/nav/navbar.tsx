@@ -9,7 +9,7 @@ interface FuncProps{
 }
 
 const CustomNavBar: React.FC<FuncProps> = ({setContent}) => {
-  const [t, i18n] = useTranslation("global");
+  const [t, ] = useTranslation("global");
 
 
   const onClick = (event:any) =>{

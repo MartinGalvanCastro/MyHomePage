@@ -1,9 +1,9 @@
 import Container from "react-bootstrap/Container";
 import "./footer.css";
-import { useTranslation } from "react-i18next";
+//import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-  const [t, i18n] = useTranslation("global");
+  //const [t, i18n] = useTranslation("global");
 
   return (
     <footer id="footer" className="mt-3">
