@@ -55,15 +55,15 @@ const renderWork = (workplace: IWorkpalceItem) => {
 
 const Resume = () => {
   return (
-    <Container>
-      <Row className="mt-3 mb-2">
-        <section className="col col-6 border-end">
+    <Container className="overflow-scroll">
+      <Row xs={1} sm={1} md={2}className="mt-3 mb-2">
+        <section className="col border-end">
           <Row className="mb-3">
             <h3>My Studies </h3>
           </Row>
           <ul className="fa-ul">{data.education.map((item) => renderStudies(item))}</ul>
         </section>
-        <section className="col col-6 border-start">
+        <section className="col border-start">
           <Row className="mb-3">
             <h3>My Working Experience </h3>
           </Row>
