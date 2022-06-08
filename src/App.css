@@ -9,10 +9,14 @@
     padding-right: 2vmin;
 }
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5, strong{
     font-family: 'Mulish', sans-serif;
 }
 
 a, p, span{
     font-family: 'Roboto', sans-serif;
+}
+
+.content-container{
+    min-height: 20rem;
 }

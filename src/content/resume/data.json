@@ -3,7 +3,7 @@
         {
             "name":"Computer and System Engineering",
             "where":"Universidad de los Andes",
-            "during":"2016-2021"
+            "during":"2016-2022"
         },
         {
             "name":"Mechanical Engineering",
@@ -21,8 +21,14 @@
         {
             "name":"Helpdesk Engineer",
             "where":"LiveU",
-            "during":"Febrary 2021 - Present",
+            "during":"Febrary 2021 - Febrary 2022",
             "description":"Giving realtime support and troubleshooting on field units and servers to clients accross Latin America and Caribbean for Live TV Events"
+        },
+        {
+            "name":"Technical Analyst",
+            "where":"Kin + Carta",
+            "during":"Febrary 2022 - Present",
+            "description":"Software consulting for BackEnd & FrontEnd Development"
         }
     ]
 }

@@ -49,6 +49,16 @@
             "name":"CSS",
             "level":"Intermediate",
             "logo":"css.svg"
+        },
+        {
+            "name":"Angular",
+            "level":"Intermediate",
+            "logo":"angular.svg"
+        },
+        {
+            "name":"Kotlin",
+            "level":"Intermediate",
+            "logo":"kotlin.svg"
         }
     ],
     "capable_of":[

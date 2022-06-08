@@ -2,7 +2,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import data from "./data.json";
 import Container from "react-bootstrap/Container";
-import "./home.css";
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
+import Tooltip from 'react-bootstrap/Tooltip'
 
 interface ISkillObject {
   name: string;
@@ -50,7 +51,9 @@ const renderSkill = (data: ISkillObject) => {
           </Col>
         </Row>
         <Row>
-          <Col><p>{data.level}</p></Col>
+          <Col>
+            <p>{data.level}</p>
+          </Col>
         </Row>
       </Container>
     </Col>
@@ -58,19 +61,32 @@ const renderSkill = (data: ISkillObject) => {
 };
 
 const Home = () => {
+
+  const renderTooltip = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+      You can scorll down on this page
+    </Tooltip>
+  );
+
   return (
-    <Container>
+    <OverlayTrigger    
+    placement="right"
+    delay={{ show: 250, hide: 400 }}
+    overlay={renderTooltip}>
+    <Container className="overflow-scroll" style={{"maxHeight":"43rem"}} >
       <Row className="mt-3 mb-2">
         <section className="col">
           <h3>About Me:</h3>
           <p>
-            Mechanical and Software Engineer graduated from the Universidad De
-            Los Andes. With experience working with Python, Django, ROSpy, Java,
-            Matlab, SQL, and SQL Databases, MongoDB, NodeJS, ExpressJS, React,
-            AWS and Firebase. With interest in Robotics, Artificial
-            Intelligence, Software Development, and Architecture, Modeling,
-            Simulation, and Optimization and aspirations to become a great Full
-            Stack Engineer
+            Software Engineer graduated from the Universidad De Los Andes. With
+            experience working with Java, Python, Django, Java, SQL Databases,
+            MongoDB, Node, Express, React, Angular and AWS. With interest in
+            Robotics, Artificial Intelligence, Software Design, Architecture and
+            Development, Systems Modeling, Simulation, and Optimization and
+            aspirations to become a Dev Ops Engineer or a Full Stack Developer.
+          </p>
+          <p>
+            In constant seek for new knowledge and new challenges
           </p>
         </section>
       </Row>
@@ -93,6 +109,8 @@ const Home = () => {
         </section>
       </Row>
     </Container>
+    </OverlayTrigger>
+    
   );
 };
 

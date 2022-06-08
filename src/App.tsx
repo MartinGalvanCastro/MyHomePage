@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import "./app.css";
+import "./App.css"
 import ParticleBackground from "./particleBackgorund/particleBackground";
 import CustomNavBar from "./nav/navbar";
 import Container from "react-bootstrap/Container";
@@ -25,7 +25,7 @@ function App() {
         </Col>
         <Col lg={9} md={8}>
         <CustomNavBar setContent={setContent}/>
-          <Card>
+          <Card className="content-container">
             <Card.Body>
               <Content contentId={content}/>
             </Card.Body>
