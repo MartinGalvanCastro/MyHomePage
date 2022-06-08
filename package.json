@@ -71,6 +71,5 @@
     "@types/react-pdf": "^5.0.9"
   },
   "resolutions": {
-    "react-scripts": "^5.0.1"
   }
 }
