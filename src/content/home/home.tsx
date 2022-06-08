@@ -5,6 +5,8 @@ import Container from "react-bootstrap/Container";
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
 import Tooltip from 'react-bootstrap/Tooltip'
 
+import "./home.css"
+
 interface ISkillObject {
   name: string;
   level: string;
